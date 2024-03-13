@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <details>
+
+        <summary>
+            Primero
+        </summary>
+        <p>
+            Tal
+        </p>
+        <p>
+            Tal
+        </p>
+        <p>
+            Tal
+        </p>
+        <p>
+            Empresa
+        </p>
+
+    </details>
+
+
+    <details open>
+        <summary>
+            Primero
+        </summary>
+        <p>
+            Tal
+        </p>
+        <p>
+            Tal
+        </p>
+        <p>
+            Tal
+        </p>
+        <p>
+            Empresa
+        </p>
+
+        
+    </details>
+
+
+
+    <button onclick="abreDialog()">Confirmar notas</button>
+
+    <dialog>
+        
+    </dialog>
+
+</body>
+</html>
+
+
+<script>
+
+    var miDialog = document.querySelector("dialog");
+
+    function abreDialog(){
+        miDialog.showModal();
+    }
+
+    function responderSi(){
+        //tal alert
+        miDialog.close();
+    }
+
+    function responderSi(){
+       //tal alert
+        miDialog.close();
+    }
+
+</script>
